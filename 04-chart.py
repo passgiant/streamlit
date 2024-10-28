@@ -5,9 +5,9 @@ import seaborn as sns
 import numpy as np
 
 # 한글 폰트 설정
-plt.rcParams['font.family'] = "AppleGothic"
+# plt.rcParams['font.family'] = "AppleGothic"
 # Windows, 리눅스 사용자
-# plt.rcParams['font.family'] = "NanumGothic"
+plt.rcParams['font.family'] = "NanumGothic"
 plt.rcParams['axes.unicode_minus'] = False
 
 
@@ -29,7 +29,7 @@ fig = barplot.get_figure()
 
 st.pyplot(fig)
 
-#############
+# #############
 
 labels = ['G1', 'G2', 'G3', 'G4', 'G5']
 men_means = [20, 35, 30, 35, 27]
