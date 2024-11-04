@@ -1,0 +1,8 @@
+sesac-24-104
+us-central1
+
+gcloud auth login
+
+gcloud builds submit --tag gcr.io/sesac-24-104/streamlit-app
+
+gcloud run deploy --image gcr.io/sesac-24-104/streamlit-app --platform managed --allow-unauthenticated

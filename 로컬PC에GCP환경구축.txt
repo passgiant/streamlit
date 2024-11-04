@@ -1,0 +1,12 @@
+google Cloud SDK를 설치하고, 로컬 PC에서 Gemini사용하기
+
+1. google Cloud SDK를 다운로드
+   https://cloud.google.com/sdk/docs/install-sdk?hl=ko 
+
+2. gcloud init -> 구글 아이디, 프로젝트명, LOCATION설정
+3. 가상환경 생성(gcloud), gcloud폴더를 생성하고, 테스트하고자하는 코드를 이 폴더에 담아둔다.
+4. 가상환경에 notebook을 설치하고 juypterlab을 실행
+5. intro_prompt_design.ipynb파일을 열고 코드를 실행
+   사용자 인증을 위해 gcloud auth login, gcloud auth application-default login을 실행(json파일을 다운로드)
+   json파일은 credentials파일
+
